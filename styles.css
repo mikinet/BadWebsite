@@ -1,33 +1,39 @@
-body{
-font-size: 12px;
+body {
+  width: 60%;
+  margin: auto;
+  border: 1px solid darkgray;
 }
 
-.brown{
-font-size: 15px;
-margin: 16px;
-color: brown;
+section {
+  background-color: cornsilk;
+  margin: 50px 0px;
 }
-.green{
-font-size: 5px;
-margin: -32px;
-color: green;
-}
-.yellow{
-font-size: 15px;
-margin: 32px;
-color: yellow;
-}
-.red{
-font-size: 15px;
-margin: 2px; color: black;
-background-color: red;
-}
+
+h1,
 p {
- width: 60px;
-        font-size: 200%;
-      }
+  width: 100%;
+}
 
-      h1 {
-        padding-left: 600px;
-      }
-     
+p {
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+  background-color: darkcyan;
+}
+
+section:first-of-type h1 {
+  font-size: 2.5em;
+  background-color: darkolivegreen;
+}
+
+.brown,
+.yellow,
+.green,
+.red {
+  font-size: 1em;
+  margin: 16px;
+}
