@@ -1,0 +1,33 @@
+body{
+font-size: 12px;
+}
+
+.brown{
+font-size: 15px;
+margin: 16px;
+color: brown;
+}
+.green{
+font-size: 5px;
+margin: -32px;
+color: green;
+}
+.yellow{
+font-size: 15px;
+margin: 32px;
+color: yellow;
+}
+.red{
+font-size: 15px;
+margin: 2px; color: black;
+background-color: red;
+}
+p {
+ width: 60px;
+        font-size: 200%;
+      }
+
+      h1 {
+        padding-left: 600px;
+      }
+     
